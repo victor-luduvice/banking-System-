@@ -1,44 +1,50 @@
-# Sistema Bancário em Java
-Este é um simples sistema bancário implementado em Java que permite aos usuários cadastrar-se, criar bancos com senhas de acesso, realizar operações como adicionar e remover valores das contas bancárias, e visualizar o saldo e extrato das transações.
+# Banking System 🏦
 
-# Funcionalidades
-- Cadastro de usuários: Os usuários podem se cadastrar fornecendo nome e CPF.
-- Criação de bancos: Os usuários podem criar bancos pessoais com senhas de acesso.
-- Operações bancárias: Os usuários podem adicionar e remover valores de suas contas bancárias.
-- Visualização de saldo: Os usuários podem verificar o saldo de suas contas bancárias.
-- Menu de extrato: Os usuários podem visualizar um extrato das transações realizadas em suas contas.
+![GitHub repo size](https://img.shields.io/github/repo-size/victor-luduvice/banking-System-?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/victor-luduvice/banking-System-?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/victor-luduvice/banking-System-?style=for-the-badge)
 
-# Pré-requisitos
-- Java Development Kit (JDK) instalado no sistema.
-- Conhecimento básico de Java.
+> Um sistema bancário simples desenvolvido em Java.
 
+### 📌 Descrição
+Este projeto consiste em um sistema bancário que permite a realização de operações básicas como cadastro de clientes, criação de contas, depósitos, saques e transferências. Ele foi desenvolvido com foco na aplicação dos princípios de Programação Orientada a Objetos (POO) em Java.
 
-# Como executar o sistema
-1 - Clone o repositório para o seu ambiente local:
+## 🚀 Tecnologias Utilizadas
 
-```java
-git clone https://github.com/seu-usuario/sistema-bancario-java.git
+- Java ☕
+- Programação Orientada a Objetos (POO)
+
+## 📂 Estrutura do Projeto
+
 ```
-2 - Navegue até o diretório do projeto:
-```java
-cd sistema-bancario-java
+📦 banking-System-
+ ┣ 📂 src
+ ┃ ┣ 📜 Main.java
+ ┃ ┣ 📜 Cliente.java
+ ┃ ┣ 📜 Conta.java
+ ┃ ┣ 📜 ContaCorrente.java
+ ┃ ┗ 📜 ContaPoupanca.java
+ ┣ 📜 README.md
+ ┗ 📜 .gitignore
 ```
-2 - Compile o código-fonte:
-```java
-javac SistemaBancario.java
-```
-3 - Execute o programa:
-```java
-java SistemaBancario
-```
-</br>
-Siga as instruções no console para interagir com o sistema.
 
-# Contribuindo
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, por favor, abra uma issue ou envie um pull request.
+## 📌 Funcionalidades
+- Criar e gerenciar contas bancárias.
+- Realizar depósitos e saques.
+- Transferências entre contas.
+- Exibição do saldo atualizado.
 
-# Autores
-- Victor Luduvice 
+## 🎯 Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/victor-luduvice/banking-System-.git
+   ```
+2. Abra o projeto em sua IDE de preferência.
+3. Compile e execute o arquivo `Main.java`.
+
+## 🤝 Contribuição
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir um **Pull Request** ou relatar um **Issue**.
 
 
 
